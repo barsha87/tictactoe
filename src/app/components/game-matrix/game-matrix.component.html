@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <h2 class="head">{{msg}}</h2>
+  <table id="gametable">
+  <tr *ngFor="let row of arr; let i = index">
+    <td *ngFor="let item of row; let j = index">
+      <button class = "tic" (click)= "change(i,j)">
+        <div class="text" [hidden] = "item == '-'">{{item}}</div>
+      </button>
+    </td>
+  </tr>
+</table>
+  <button (click)="on_click_restart()">Restart</button>
+</div>

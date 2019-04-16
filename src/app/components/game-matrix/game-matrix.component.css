@@ -1,0 +1,37 @@
+table{
+  margin:auto;
+}
+
+.tic {
+  background-color: lightgoldenrodyellow;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.text {
+  font-size: 60px;
+  color: #5a6268;
+}
+
+.head {
+  color: #117a8b;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+button {
+  color: #5a6268;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 12px;
+  margin-top: 60px;
+}
+
+.wrapper {
+  text-align: center;
+}
